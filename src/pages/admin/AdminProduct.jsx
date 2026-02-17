@@ -35,7 +35,7 @@ import {
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Textarea } from "@/components/ui/textarea";
-import ImageUpload from "@/components/imageUpload";
+import ImageUpload from "@/components/ImageUpload";
 import axios from "axios";
 import { setProducts } from "@/redux/productSlice";
 import { toast } from "sonner";
