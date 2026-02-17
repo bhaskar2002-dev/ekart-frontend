@@ -1,4 +1,4 @@
-import ImageUpload from "@/components/imageUpload";
+import ImageUpload from "@/components/ImageUpload"; 
 import { Button } from "@/components/ui/button";
 import {
   Card,
