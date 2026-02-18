@@ -1,16 +1,21 @@
-# React + Vite
+# Ekart – MERN Stack E-commerce Application (Frontend & Backend)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Ekart** is a full-stack e-commerce application built with **MERN stack**. The frontend is built using **React.js with Vite**, providing a fast and modern UI, while the backend (Node.js + Express + MongoDB) handles authentication, product management, cart, orders, and payment integration via Razorpay.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Frontend Overview (Vite + React.js)
 
-## React Compiler
+- Built using **Vite** for fast development and optimized build.  
+- Uses **React Router** for navigation and **Redux/Context** for state management.  
+- Styled with **Tailwind CSS / Bootstrap** for responsive design.  
+- Integrates with backend APIs for **user authentication, products, cart, and orders**.  
+- Handles **file uploads** (product images) via backend and Cloudinary.  
+- Designed to work seamlessly with **Razorpay payment gateway** for checkout.## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+| Frontend        | Backend        | Database        | Other Tools / Libraries        |
+|-----------------|----------------|----------------|--------------------------------|
+| React.js        | Node.js        | MongoDB         | Razorpay API                   |
+| Vite            | Express.js     | Mongoose        | Cloudinary                     |
+| Redux / Context | JWT Auth       |                | Nodemailer (Email OTP)         |
+| React Router    | Multer         |                | Tailwind CSS / Bootstrap      
